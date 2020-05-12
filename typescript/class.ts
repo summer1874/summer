@@ -1,6 +1,7 @@
 class Animal  {
   // public 表示公有属性或方法
   // protected 该类只允许被继承
+  // private 修饰的属性或方法是私有的，不能在声明它的类的外部访问
   // readonly 只读属性关键字，只允许出现在属性声明或索引签名或构造函数中。
   // static 使用 static 修饰符修饰的方法称为静态方法，它们不需要实例化，而是直接通过类来调用
   // <public | protected | readonly | static> name: string
